@@ -2,7 +2,7 @@ package ar.com.morga;
 
 public class Division {
     public static double divisionEntera(double num1, double num2) {
-        double resultado = 0;
+        double resultado = 1;
         while (num1 >= num2) {
             num1 -= num2;
             resultado++;
@@ -11,6 +11,6 @@ public class Division {
     }
 
     public static double divisionPrecisa(double num1, double num2) {
-        return num1 / num2;
+        return (num1 / num2)+5;
     }
 }
